@@ -22,15 +22,15 @@ ModelEval.AI empowers developers and researchers to evaluate multiple LLMs in pa
 
 ## 🧱 Architecture Overview
 
-```mermaid
+mermaid
 graph TD
-    UI[Web Interface (Streamlit/FastAPI)]
-    Prompt[User Prompt]
-    Engine[LLM Inference Engine]
-    Models[Mistral, LLaMA, DeepSeek]
-    Eval[Evaluation Metrics]
-    DB[(MongoDB + FAISS)]
-    Dashboard[Monitoring & Leaderboard]
+- UI[Web Interface (Streamlit/FastAPI)]
+- Prompt[User Prompt]
+- Engine[LLM Inference Engine]
+- odels[Mistral, LLaMA, DeepSeek]
+- Eval[Evaluation Metrics]
+- DB[(MongoDB + FAISS)]
+- Dashboard[Monitoring & Leaderboard]
 
     UI --> Prompt
     Prompt --> Engine
